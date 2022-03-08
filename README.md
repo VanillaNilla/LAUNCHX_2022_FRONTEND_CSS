@@ -23,4 +23,4 @@ Bonus de despliegue de la página
 El 11 de Marzo se subirá el Form para que entreguen las prácticas y tienen hasta el 13 de Marzo a las 12:00 de la noche para entregarlas.
 ¡Vámonos hasta el espacio y más allá Explorers!!
 
-[byebye](https://user-images.githubusercontent.com/62974302/157283810-9d460be6-eea3-4b09-9f3a-e8b4c5dd4e93.png)
+![byebye](https://user-images.githubusercontent.com/62974302/157283810-9d460be6-eea3-4b09-9f3a-e8b4c5dd4e93.png)
