@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/*Implementacion de root
+	- Pueden implementarse variables de css -> --main-pink: hotpink; 
+*/
+:root{
+	--blue-elementary-color: rgb(255, 255, 255);
+	--blue-secondary-color: rgb(255, 255, 255);
+}
+
+
+* {
+	padding: 0;
+  	margin: 0;
+}
+
+/*
+		Fuentes de la pagina
+	
+	*/
+
+	@font-face {
+		font-family: 'Open Sans';
+		src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+		font-style: normal;
+		font-weight: normal;
+	  }
+
+
+header {
+	background: rgb(255, 255, 255);
+	color: rgb(18, 23, 88);
+	height: 80px;
+	padding-top: 15px;
+
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+	header a {
+		color: rgb(74, 74, 74);
+	}
+
+	
+
+
+/*
+ * Logo
+ */
+.logo-header {
+	float: left;
+	padding: 15px 0 0 40px;
+	text-decoration: none;
+	font-size: 25px;
+}
+	.logo-header:hover {
+		color: #6a6e6f;
+	}
+	
+	.logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	.logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 70px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 30px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					text-shadow: 2px 2px 2px rgb(66, 78, 253);
+					border-radius: 30px;
+					
+				}
+
+
+
+
+nav .selected{
+	text-decoration: none;
+    padding: 2px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+	width: fit-content;
+	height: fit-content;
+}
